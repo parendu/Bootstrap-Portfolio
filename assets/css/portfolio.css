@@ -3,6 +3,18 @@
 #imgdesc {
   text-align: center; 
   color: #878B8C; 
-  padding-top: 12px;
+  margin-top: 20px;
 
+}
+
+.thumbnail {
+    padding: 0 0 10px 0;
+    border: none;
+    border-radius: 0;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5px;
 }

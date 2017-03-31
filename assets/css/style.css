@@ -5,23 +5,23 @@
     }
     
     /* Add a gray color to all navbar links */
-.navbar li a, .navbar .navbar-brand { 
+    .navbar li a, .navbar .navbar-brand { 
     color: #d5d5d5 !important;
-}
+    }
 
-/* On hover, the links will turn white */
-.navbar-nav li a:hover {
+    /* On hover, the links will turn white */
+    .navbar-nav li a:hover { 
     color: #fff !important;
-}
+    }
 
-/* The active link */
-.navbar-nav li.active a {
+    /* The active link */
+    .navbar-nav li.active a {
     color: #fff !important;
     background-color:#29292c !important;
-}
+    }
 
     /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-    .row.content {height: 525px}
+    .row.content {height: 725px;}
     
     /* Set gray background color and 100% height */
     .sidenav {
@@ -29,14 +29,16 @@
       background-color: #323333;
       height: 100%;
       color: #323333;
-
     }
 
     /* Set black background color, white text and some padding */
     footer {
       background-color: #555;
       color: white;
-      padding: 10px;
+  
+      padding-bottom: 10px;
+      padding-top: 10px;
+
     }
     
     /* On small screens, set height to 'auto' for sidenav and grid */
@@ -47,7 +49,6 @@
 
       }
  }
-
 
     /*Image and about me content */
     .aboutme {
