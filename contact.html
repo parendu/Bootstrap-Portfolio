@@ -1,69 +1,96 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <title>Parendu Parikh Portfolio</title>
   <meta charset="utf-8">
-  <title>Parendu Parikh</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-</head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/portfolio.css">
 
+</head>
 <body>
 
-<!-- Header and Nav links -->
-<header>
-<div>
-   <h1>Parendu Parikh</h1>
-</div>
-
-<!-- Top page navigation links -->
-<div class="topnav">
-   <a href="index.html">About &nbsp; &nbsp; &nbsp;|</a>
-   <a href="contact.html">&nbsp; &nbsp; &nbsp;Contact&nbsp; &nbsp; &nbsp;|</a>
-   <a href="portfolio.html">&nbsp; &nbsp; &nbsp;Portfolio</a>
-</div>
-</header>
-
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+       <a class="navbar-brand" style="font-size:24px" href="#">Parendu Parikh</a>
+    </div>
+ 
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+   
+  </div>
+</nav>
 
 <!-- Contact forms -->
-<section id="about">
+<div class="container-fluid text-center">    
+  <div class="row content aboutme">
+ 
+    <div class="col-sm-8 text-left"> 
+      <h2>Contact Me:</h2>
+       <hr>
+  <!--  Address and contact form -->
 
-<aside>
-  <h2 id="headeraside">Contact</h2>
-  <hr>
-  
-  <form>
-    <label for="name">Name</label>
-    <input type="text" id="name" name="name" placeholder="John Smith">
-    <label for="email">Email</label>
-    <input type="text" id="email" name="email" placeholder="example@gmail.com">
-    <label for="message">Message</label>
-    <textarea id="message" name="message" style="height:200px"></textarea>
-    <input type="submit" value="Submit">
-  </form>
+<div class="row">
+    <div class="col-sm-5">
+      <p>Contact us:</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> East Brunswick, US</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +1 1112223333</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> myemail@gmail.com</p> 
+    </div>
+    <div class="col-sm-7">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="fname" name="first name" placeholder="First Name" type="text" required>
+        </div>
 
-</aside>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="last Name" placeholder="Last name" type="text" required>
+        </div>
 
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
 
-
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="phone" name="phone" placeholder="Telephone" type="phone">
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Send</button>
+        </div>
+      </div> 
+    </div>
+  </div>
+</div>
 
 <!-- Connect box with github, Linkedin and stackover -->
-<div id="division">
-  <h2>Connect With Me</h2>
+    <div class="col-sm-3 sidenav">
+      <div class="well">
+        <h3>Connect With Me</h3>
   <hr>
-   <a href="https://github.com/Parendu"><img src="assets/images/github.png" alt="github" widht="50px", height="50px" padding-top="10px"></a>
+  <a href="https://github.com/Parendu"><img src="assets/images/github.png" alt="github" widht="50px", height="50px"></a>
 
-  <a href="https://www.linkedin.com/in/parendu/"><img src="assets/images/linkedin.png" alt="github" widht="50px", height="50px" padding-top="10px"></a>
+  <a href="https://www.linkedin.com/in/parendu/"><img src="assets/images/linkedin.png" alt="github" widht="50px", height="50px"></a>
 
   <a href="http://www.stackoverflow.com/"><img src="assets/images/stackoverflow.png" alt="github" widht="50px", height="47px"></a>
+      </div>  
+    </div>
 
+  </div>
 </div>
-</section>
 
-
-<!-- Footer -->
-<footer>&copy;Copyrights 2016. Parendu Parikh </footer>
-
-
+<footer class="container-fluid text-center">
+<p>&copy;Copyrights 2016. Parendu Parikh</p>
+</footer>
 
 </body>
 </html>
+
  

@@ -4,13 +4,28 @@
       border-radius: 0;
     }
     
+    /* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand { 
+    color: #d5d5d5 !important;
+}
+
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#29292c !important;
+}
+
     /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
     .row.content {height: 525px}
     
     /* Set gray background color and 100% height */
     .sidenav {
       padding-top: 20px;
-   /*   background-color: #f1f1f1;  */
       background-color: #323333;
       height: 100%;
       color: #323333;
@@ -31,18 +46,19 @@
         padding: 15px;
 
       }
- 
+ }
+
 
     /*Image and about me content */
     .aboutme {
-      background-image: url("./assets/images/naturalblack.png");
-      background-color: #878B8C;
+      /*background-image: url("./assets/images/naturalblack.png");*/
+     background-color: #878B8C;
       color: white;
       height: 100%;
 
     }
 
-    #myimage {
+    #myimage1 {
       display: block;
       margin: auto;
     }
