@@ -1,18 +1,26 @@
+ body {
+  padding-top: 49px;
+ }
+
+
   /* Remove the navbar's default margin-bottom and rounded borders */ 
     .navbar {
       margin-bottom: 0;
       border-radius: 0;
+      background-color: #000000 !important;
     }
     
+ 
     /* Add a gray color to all navbar links */
     .navbar li a, .navbar .navbar-brand { 
     color: #d5d5d5 !important;
+    
     }
 
     /* On hover, the links will turn white */
-    .navbar-nav li a:hover { 
+    .navbar-nav li a:hover    { 
     color: #fff !important;
-    }
+    } 
 
     /* The active link */
     .navbar-nav li.active a {
@@ -42,13 +50,15 @@
     }
     
     /* On small screens, set height to 'auto' for sidenav and grid */
-    @media screen and (max-width: 767px) {
+    /*@media screen and (max-width: 767px) {*/
+      /*.sidenav {*/
+         @media screen and (max-width: 575px) {
       .sidenav {
         height: 25%;
         padding: 15px;
-
       }
  }
+
 
     /*Image and about me content */
     .aboutme {
