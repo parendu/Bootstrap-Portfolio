@@ -1,17 +1,17 @@
- body {
-  padding-top: 49px;
- }
+   body {
 
-
-  /* Remove the navbar's default margin-bottom and rounded borders */ 
-    .navbar {
+    padding-top: 49px;
+  }
+ 
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+      .navbar {
       margin-bottom: 0;
       border-radius: 0;
       background-color: #000000 !important;
     }
-    
- 
-    /* Add a gray color to all navbar links */
+   }
+
+  /* Add a gray color to all navbar links */
     .navbar li a, .navbar .navbar-brand { 
     color: #d5d5d5 !important;
     
@@ -27,9 +27,8 @@
     color: #fff !important;
     background-color:#29292c !important;
     }
-
     /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-    .row.content {height: 725px;}
+    .row.content {height: 675px;}
     
     /* Set gray background color and 100% height */
     .sidenav {
@@ -38,38 +37,31 @@
       height: 100%;
       color: #323333;
     }
-
+    
     /* Set black background color, white text and some padding */
     footer {
       background-color: #555;
       color: white;
-  
-      padding-bottom: 10px;
       padding-top: 10px;
-
     }
     
     /* On small screens, set height to 'auto' for sidenav and grid */
     @media screen and (max-width: 767px) {
       .sidenav {
-     
-        height: 25%;
+        height: auto;
         padding: 15px;
       }
- }
-
-
-    /*Image and about me content */
-    .aboutme {
-      /*background-image: url("./assets/images/naturalblack.png");*/
-     background-color: #878B8C;
-      color: white;
-      height: 100%;
-
+      .row.content {height:auto;} 
     }
 
-    #myimage1 {
+    .aboutme {
+      background-color: #878B8C;
+      color: white;
+     }
+
+   #myimage1 {
       display: block;
       margin: auto;
     }
 
+ 
